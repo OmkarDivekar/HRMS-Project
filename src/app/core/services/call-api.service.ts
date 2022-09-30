@@ -28,7 +28,7 @@ export class CallApiService {
 
   setHttp(type: string, url: string, isHeader: Boolean, obj: any, params: any, baseUrl: any) {
     try {
-      //this.userObj = JSON.parse(sessionStorage.loggedInDetails);
+      
     } catch (e) { }
     this.clearHttp();
     this.httpObj.type = type;
