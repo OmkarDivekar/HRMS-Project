@@ -12,6 +12,7 @@ export class CallApiService {
     type: '',
     url: '',
     options: Object
+    
   };
 
   constructor(private http: HttpClient,  private router: Router) {}
