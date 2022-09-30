@@ -10,7 +10,7 @@ export class CallApiService {
     url: '',
     options: Object
   };
-//Api2
+//Api22
   constructor(private http: HttpClient,  private router: Router) {}
   
   getBaseurl(url: string) {
