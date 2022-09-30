@@ -43,7 +43,7 @@ export class CallApiService {
    obj !== false ? this.httpObj.options.body = obj :  this.httpObj.options.body = false;
    params !== false ? this.httpObj.options.params = params :   this.httpObj.options.params = false;
   }
-
+//omkar
   clearHttp() {
     this.httpObj.type = '';
     this.httpObj.url = '';
