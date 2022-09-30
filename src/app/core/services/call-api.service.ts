@@ -11,6 +11,7 @@ export class CallApiService {
   private httpObj: any = {
     type: '',
     url: '',
+    
     options: Object
     
   };
