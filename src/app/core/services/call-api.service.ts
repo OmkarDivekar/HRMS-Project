@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 })
 export class CallApiService {
   userObj = new Array();
-//check122
+//check1222
   private httpObj: any = {
     type: '',
     url: '',
